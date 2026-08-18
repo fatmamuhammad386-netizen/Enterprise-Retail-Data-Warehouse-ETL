@@ -734,8 +734,10 @@ SELECT TOP 10 CustomerKey, FirstName_Clean, LastName_Clean, CustomerTier
 FROM dbo.DW_DimCustomer;
 
 SELECT TOP 10 SalesKey, NetSalesAmount, GrossProfit, ProfitMarginPercent, OrderSize
-FROM dbo.DW_FactSales;
+FROM dbo. DW_FactSales;
 
+
+select top 10 totalcost from stg_factsales
 
 
 
@@ -756,3 +758,50 @@ CREATE TABLE dbo.ETL_Log (
 
 select * from dbo.ETL_Log
 
+
+
+
+
+USE ContosoRetail_Staging;
+GO
+CREATE VIEW dbo.vw_DataQualityDashboard AS
+SELECT 
+    'Total Processed Records' AS Metric,
+    COUNT(*) AS Value
+FROM [ContosoRetail_Staging].[dbo].[Stg_FactOnlineSales]
+
+UNION ALL
+
+SELECT 
+    'Total Valid Records',
+    COUNT(*)
+FROM dbo.Valid_FactOnlineSales
+
+UNION ALL
+
+SELECT 
+    'Total Rejected Records',
+    COUNT(*)
+FROM [ContosoRetail_Staging].[dbo].[ErrorLog]
+
+UNION ALL
+
+SELECT 
+    'Validation Success Rate (%)',
+    CAST(
+        (SELECT COUNT(*) FROM dbo.Valid_FactOnlineSales) AS FLOAT
+    ) / NULLIF(
+        CAST((SELECT COUNT(*) FROM [ContosoRetail_Staging].[dbo].[Stg_FactOnlineSales]) AS FLOAT), 0
+    ) * 100
+
+UNION ALL
+
+SELECT 
+    'Last Execution Duration (seconds)',
+    ISNULL(
+        (SELECT TOP 1 DurationSeconds 
+         FROM [ContosoRetailDW].[dbo].ETL_Log 
+         WHERE PackageName = 'Validation Package' 
+         ORDER BY LogID DESC), 0
+    );
+SELECT * FROM dbo.vw_DataQualityDashboard;
