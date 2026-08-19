@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Transformation Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="40"
-  DTS:VersionGUID="{B84730A4-F172-4A30-9BDE-9054218D6CF3}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{F93E5E28-5BA8-4C86-BCAE-2325E4A20CAC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -193,7 +193,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Facts\transform FactInventory\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -453,7 +453,7 @@
                         <inputColumn
                           refId="Package\Load Facts\transform FactInventory\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Facts\transform FactInventory\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Facts\transform FactInventory\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -1157,7 +1157,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Facts\TRANSFORM FactOnlineSales\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -1460,7 +1460,7 @@
                         <inputColumn
                           refId="Package\Load Facts\TRANSFORM FactOnlineSales\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Facts\TRANSFORM FactOnlineSales\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Facts\TRANSFORM FactOnlineSales\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -2264,7 +2264,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Facts\transform factsales\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -2570,7 +2570,7 @@
                         <inputColumn
                           refId="Package\Load Facts\transform factsales\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Facts\transform factsales\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Facts\transform factsales\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -3275,7 +3275,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\load_DimChannel\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -3469,7 +3469,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\load_DimChannel\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\load_DimChannel\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\load_DimChannel\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -3865,7 +3865,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\load_DimCurrency\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -4059,7 +4059,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\load_DimCurrency\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\load_DimCurrency\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\load_DimCurrency\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -4455,7 +4455,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\Load_DimDate\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -4813,7 +4813,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\Load_DimDate\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\Load_DimDate\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\Load_DimDate\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -5815,7 +5815,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\load_DimGeography\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -6023,7 +6023,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\load_DimGeography\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\load_DimGeography\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\load_DimGeography\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -6471,7 +6471,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\load_DimProductCategory\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -6665,7 +6665,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\load_DimProductCategory\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\load_DimProductCategory\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\load_DimProductCategory\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -7061,7 +7061,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\load_DimProductSubcategory\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -7261,7 +7261,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\load_DimProductSubcategory\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\load_DimProductSubcategory\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\load_DimProductSubcategory\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -7679,7 +7679,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\load_DimPromotion\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -7917,7 +7917,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\load_DimPromotion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\load_DimPromotion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\load_DimPromotion\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -8475,7 +8475,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Reference Dimensions\load_DimStore\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -8773,7 +8773,7 @@
                         <inputColumn
                           refId="Package\Load Reference Dimensions\load_DimStore\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Reference Dimensions\load_DimStore\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Reference Dimensions\load_DimStore\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -9769,7 +9769,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Transformed Dimensions\Transform_DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -10146,7 +10146,7 @@
                         <inputColumn
                           refId="Package\Load Transformed Dimensions\Transform_DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Transformed Dimensions\Transform_DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Transformed Dimensions\Transform_DimCustomer\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -11204,7 +11204,7 @@
                           dataType="wstr"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="FailComponent"
-                          length="8"
+                          length="22"
                           lineageId="Package\Load Transformed Dimensions\Transform_DimProduct\Derived Column.Outputs[Derived Column Output].Columns[PackageName]"
                           name="PackageName"
                           truncationRowDisposition="FailComponent">
@@ -11588,7 +11588,7 @@
                         <inputColumn
                           refId="Package\Load Transformed Dimensions\Transform_DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PackageName]"
                           cachedDataType="wstr"
-                          cachedLength="8"
+                          cachedLength="22"
                           cachedName="PackageName"
                           externalMetadataColumnId="Package\Load Transformed Dimensions\Transform_DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PackageName]"
                           lineageId="Package\Load Transformed Dimensions\Transform_DimProduct\Derived Column.Outputs[Derived Column Output].Columns[PackageName]" />
@@ -13297,40 +13297,6 @@
           Size="152.8,41.6"
           Id="Package\Load Facts\transform FactInventory\Derived Column"
           TopLeft="376.499994471669,126.49999819696" />
-        <EdgeLayout
-          Id="Package\Load Facts\transform FactInventory.Paths[OLE DB Source Output]"
-          TopLeft="438.799994575977,74.5999995082617">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="14.099999895692,51.8999986886978"
-              Start="0,0"
-              End="14.099999895692,44.3999986886978">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.9499993443489" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.9499993443489"
-                    Point2="0,25.9499993443489"
-                    Point3="4,25.9499993443489" />
-                  <mssgle:LineSegment
-                    End="10.099999895692,25.9499993443489" />
-                  <mssgle:CubicBezierSegment
-                    Point1="10.099999895692,25.9499993443489"
-                    Point2="14.099999895692,25.9499993443489"
-                    Point3="14.099999895692,29.9499993443489" />
-                  <mssgle:LineSegment
-                    End="14.099999895692,44.3999986886978" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\Load Facts\transform FactInventory\OLE DB Destination"
@@ -13361,6 +13327,40 @@
                     Point3="13.2999998509883,40.9499990984797" />
                   <mssgle:LineSegment
                     End="13.2999998509883,66.3999981969594" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Facts\transform FactInventory.Paths[OLE DB Source Output]"
+          TopLeft="438.799994575977,74.5999995082617">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="14.099999895692,51.8999986886978"
+              Start="0,0"
+              End="14.099999895692,44.3999986886978">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.9499993443489" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.9499993443489"
+                    Point2="0,25.9499993443489"
+                    Point3="4,25.9499993443489" />
+                  <mssgle:LineSegment
+                    End="10.099999895692,25.9499993443489" />
+                  <mssgle:CubicBezierSegment
+                    Point1="10.099999895692,25.9499993443489"
+                    Point2="14.099999895692,25.9499993443489"
+                    Point3="14.099999895692,29.9499993443489" />
+                  <mssgle:LineSegment
+                    End="14.099999895692,44.3999986886978" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13404,17 +13404,17 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Load Facts\TRANSFORM FactOnlineSales\OLE DB Source"
-          TopLeft="295.999995589256,58.9999991208315" />
+          Size="152.8,41.6"
+          Id="Package\Load Facts\TRANSFORM FactOnlineSales\Derived Column"
+          TopLeft="355.999994695187,172.999997422099" />
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\Load Facts\TRANSFORM FactOnlineSales\OLE DB Destination"
           TopLeft="308.999995395541,276.999995872378" />
         <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Load Facts\TRANSFORM FactOnlineSales\Derived Column"
-          TopLeft="355.999994695187,172.999997422099" />
+          Size="149.6,41.6"
+          Id="Package\Load Facts\TRANSFORM FactOnlineSales\OLE DB Source"
+          TopLeft="295.999995589256,58.9999991208315" />
         <EdgeLayout
           Id="Package\Load Facts\TRANSFORM FactOnlineSales.Paths[OLE DB Source Output]"
           TopLeft="370.799995589256,100.599999120832">
@@ -13608,6 +13608,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\load_DimChannel\OLE DB Destination"
+          TopLeft="284.999995753169,232.999996528029" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Load Reference Dimensions\load_DimChannel\OLE DB Source"
           TopLeft="285.999995738268,41.9999993741512" />
@@ -13615,10 +13619,6 @@
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\load_DimChannel\Derived Column"
           TopLeft="291.999995648861,136.999997958541" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\load_DimChannel\OLE DB Destination"
-          TopLeft="284.999995753169,232.999996528029" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\load_DimChannel.Paths[OLE DB Source Output]"
           TopLeft="364.599995693564,83.5999993741513">
@@ -13698,6 +13698,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\load_DimCurrency\OLE DB Destination"
+          TopLeft="358.999994650483,227.999996602535" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Load Reference Dimensions\load_DimCurrency\OLE DB Source"
           TopLeft="364.999994561076,53.9999991953373" />
@@ -13705,10 +13709,6 @@
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\load_DimCurrency\Derived Column"
           TopLeft="364.999994561076,141.999997884035" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\load_DimCurrency\OLE DB Destination"
-          TopLeft="358.999994650483,227.999996602535" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\load_DimCurrency.Paths[OLE DB Source Output]"
           TopLeft="440.599994561076,95.5999991953373">
@@ -13788,6 +13788,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\Load_DimDate\OLE DB Destination"
+          TopLeft="355.999994695187,289.999995678663" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Load Reference Dimensions\Load_DimDate\OLE DB Source"
           TopLeft="340.999994918704,44.9999993294478" />
@@ -13795,10 +13799,6 @@
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\Load_DimDate\Derived Column"
           TopLeft="356.999994680286,156.999997660518" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\Load_DimDate\OLE DB Destination"
-          TopLeft="355.999994695187,289.999995678663" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\Load_DimDate.Paths[OLE DB Source Output]"
           TopLeft="415.799994918704,86.5999993294478">
@@ -13890,17 +13890,17 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Load Reference Dimensions\load_DimGeography\OLE DB Source"
-          TopLeft="160.999997600913,81.9999987781048" />
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\load_DimGeography\OLE DB Destination"
+          TopLeft="189.999997168779,256.999996170402" />
         <NodeLayout
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\load_DimGeography\Derived Column"
           TopLeft="146.999997809529,163.99999755621" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\load_DimGeography\OLE DB Destination"
-          TopLeft="189.999997168779,256.999996170402" />
+          Size="149.6,41.6"
+          Id="Package\Load Reference Dimensions\load_DimGeography\OLE DB Source"
+          TopLeft="160.999997600913,81.9999987781048" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\load_DimGeography.Paths[OLE DB Source Output]"
           TopLeft="235.799997600913,123.599998778105">
@@ -14004,6 +14004,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\load_DimProductCategory\OLE DB Destination"
+          TopLeft="289.999995678663,232.999996528029" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Load Reference Dimensions\load_DimProductCategory\OLE DB Source"
           TopLeft="249.99999627471,45.9999993145466" />
@@ -14011,10 +14015,6 @@
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\load_DimProductCategory\Derived Column"
           TopLeft="281.999995797873,134.999997988343" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\load_DimProductCategory\OLE DB Destination"
-          TopLeft="289.999995678663,232.999996528029" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\load_DimProductCategory.Paths[OLE DB Source Output]"
           TopLeft="324.79999627471,87.5999993145466">
@@ -14118,6 +14118,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\load_DimProductSubcategory\OLE DB Destination"
+          TopLeft="183.999997258186,265.999996036291" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Load Reference Dimensions\load_DimProductSubcategory\OLE DB Source"
           TopLeft="190.499997243285,41.4999994635582" />
@@ -14125,10 +14129,6 @@
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\load_DimProductSubcategory\Derived Column"
           TopLeft="197.99999704957,138.999997928739" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\load_DimProductSubcategory\OLE DB Destination"
-          TopLeft="183.999997258186,265.999996036291" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\load_DimProductSubcategory.Paths[OLE DB Source Output]"
           TopLeft="265.299997243285,83.0999994635582">
@@ -14220,6 +14220,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\load_DimPromotion\OLE DB Destination"
+          TopLeft="252.999996230006,325.999995142222" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Load Reference Dimensions\load_DimPromotion\OLE DB Source"
           TopLeft="243.999996364117,102.99999846518" />
@@ -14227,10 +14231,6 @@
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\load_DimPromotion\Derived Column"
           TopLeft="279.999995827675,207.999996900559" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\load_DimPromotion\OLE DB Destination"
-          TopLeft="252.999996230006,325.999995142222" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\load_DimPromotion.Paths[OLE DB Source Output]"
           TopLeft="318.799996364117,144.59999846518">
@@ -14334,17 +14334,17 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Load Reference Dimensions\load_DimStore\OLE DB Source"
-          TopLeft="257.9999961555,47.9999992847443" />
+          Size="170.4,41.6"
+          Id="Package\Load Reference Dimensions\load_DimStore\OLE DB Destination"
+          TopLeft="224.999996647239,225.999996632338" />
         <NodeLayout
           Size="152.8,41.6"
           Id="Package\Load Reference Dimensions\load_DimStore\Derived Column"
           TopLeft="238.999996438623,137.99999794364" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Reference Dimensions\load_DimStore\OLE DB Destination"
-          TopLeft="224.999996647239,225.999996632338" />
+          Size="149.6,41.6"
+          Id="Package\Load Reference Dimensions\load_DimStore\OLE DB Source"
+          TopLeft="257.9999961555,47.9999992847443" />
         <EdgeLayout
           Id="Package\Load Reference Dimensions\load_DimStore.Paths[OLE DB Source Output]"
           TopLeft="332.7999961555,89.5999992847443">
@@ -14437,12 +14437,16 @@
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="170.4,41.6"
-          Id="Package\Load Transformed Dimensions\Transform_DimCustomer\Valid_DimCustomer"
-          TopLeft="325.999995142222,20.9999996870756" />
+          Id="Package\Load Transformed Dimensions\Transform_DimCustomer\OLE DB Destination"
+          TopLeft="333.999995023012,243.999996364117" />
         <NodeLayout
           Size="152.8,41.6"
           Id="Package\Load Transformed Dimensions\Transform_DimCustomer\Derived Column"
           TopLeft="326.99999512732,122.999998167157" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Transformed Dimensions\Transform_DimCustomer\Valid_DimCustomer"
+          TopLeft="325.999995142222,20.9999996870756" />
         <EdgeLayout
           Id="Package\Load Transformed Dimensions\Transform_DimCustomer.Paths[OLE DB Source Output]"
           TopLeft="407.299995134771,62.5999996870756">
@@ -14465,10 +14469,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Transformed Dimensions\Transform_DimCustomer\OLE DB Destination"
-          TopLeft="333.999995023012,243.999996364117" />
         <EdgeLayout
           Id="Package\Load Transformed Dimensions\Transform_DimCustomer.Paths[Derived Column Output]"
           TopLeft="403.39999512732,164.599998167157">
@@ -14538,13 +14538,17 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\Load Transformed Dimensions\Transform_DimProduct\Valid_DimProduct"
-          TopLeft="325.999995142222,20.9999996870756" />
+          Size="170.4,41.6"
+          Id="Package\Load Transformed Dimensions\Transform_DimProduct\OLE DB Destination"
+          TopLeft="334.999995008111,219.999996721745" />
         <NodeLayout
           Size="152.8,41.6"
           Id="Package\Load Transformed Dimensions\Transform_DimProduct\Derived Column"
           TopLeft="333.999995023012,119.999998211861" />
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Load Transformed Dimensions\Transform_DimProduct\Valid_DimProduct"
+          TopLeft="325.999995142222,20.9999996870756" />
         <EdgeLayout
           Id="Package\Load Transformed Dimensions\Transform_DimProduct.Paths[OLE DB Source Output]"
           TopLeft="408.599995082617,62.5999996870756">
@@ -14567,10 +14571,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load Transformed Dimensions\Transform_DimProduct\OLE DB Destination"
-          TopLeft="334.999995008111,219.999996721745" />
         <EdgeLayout
           Id="Package\Load Transformed Dimensions\Transform_DimProduct.Paths[Derived Column Output]"
           TopLeft="410.399995023012,161.599998211861">
