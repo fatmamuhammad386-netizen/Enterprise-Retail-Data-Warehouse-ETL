@@ -288,6 +288,8 @@ CREATE TABLE dbo.Stg_DimSalesTerritory (
 );
 
 
+select count(OnlineSalesKey) from Stg_FactOnlineSales
+
 
 
 
@@ -460,11 +462,9 @@ CREATE TABLE dbo.DW_DimProduct (
     Status                  NVARCHAR(7),
     ImageURL                NVARCHAR(150),
     ProductURL              NVARCHAR(150),
-    -- Transformation Columns
     ProductName_Clean       NVARCHAR(500),
     BrandName_Clean         NVARCHAR(50),
     ProductDescription_Clean NVARCHAR(400),
-    -- Audit Columns
     LoadDate                DATETIME        DEFAULT GETDATE(),
     PackageName             NVARCHAR(100),
     ETLUser                 NVARCHAR(100),
@@ -805,3 +805,14 @@ SELECT
          ORDER BY LogID DESC), 0
     );
 SELECT * FROM dbo.vw_DataQualityDashboard;
+
+
+
+
+select *  from ErrorLog
+
+select * from stg_DimCustomer
+
+
+use [ContosoRetailDW]
+select * from [dbo].[DW_FactOnlineSales]
